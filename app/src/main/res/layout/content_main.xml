@@ -2,24 +2,25 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.wansu.happybirthday.MainActivity"
     tools:showIn="@layout/activity_main">
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:src="@drawable/androidparty"
         android:scaleType="centerCrop"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Happy Birthday WAW!"
+        android:text="Happy Birthday, WAW!"
         android:textSize="36sp"
         android:fontFamily="sans-serif-light"
-        android:textColor="@android:color/white"/>
+        android:textColor="@android:color/white"
+        android:padding="20dp"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -29,6 +30,7 @@
         android:fontFamily="sans-serif-light"
         android:textColor="@android:color/white"
         android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"/>
+        android:layout_alignParentBottom="true"
+        android:padding="20dp"/>
 
 </RelativeLayout>
