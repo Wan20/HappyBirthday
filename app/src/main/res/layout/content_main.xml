@@ -10,14 +10,16 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/androidparty" />
+        android:src="@drawable/androidparty"
+        android:scaleType="centerCrop"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Happy Birthday WAW!"
         android:textSize="36sp"
-        android:fontFamily="sans-serif-light"/>
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/white"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -25,6 +27,7 @@
         android:text="From, Wandy"
         android:textSize="36sp"
         android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/white"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"/>
 
